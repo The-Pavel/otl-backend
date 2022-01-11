@@ -9,7 +9,7 @@ python-multipart
 numpy
 pandas
 scikit-learn
-tensorflow
+tensorflow-cpu
 
 # API
 fastapi
@@ -18,3 +18,4 @@ gunicorn
 # utilities
 six>=1.14
 joblib
+pytz
