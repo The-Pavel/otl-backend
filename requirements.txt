@@ -13,7 +13,7 @@ tensorflow-cpu
 
 # API
 fastapi
-gunicorn
+uvicorn
 
 # utilities
 six>=1.14
