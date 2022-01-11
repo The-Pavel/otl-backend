@@ -11,7 +11,7 @@ import json
 app = FastAPI()
 @app.get("/")
 def root():
-    return "Hello from Testing"
+    return {"greet": "Hello from Testing"}
 
 # #segmentation route
 @app.post("/uploadfile/")
